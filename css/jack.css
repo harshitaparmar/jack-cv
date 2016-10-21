@@ -1,14 +1,17 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(239,228,176);
 }
 .cont-space
 {
-	padding-right: 10%;
-	padding-left:10%;
-	padding-top:2%;
-	padding-bottom:2%;
-
+	margin:10%;
+	padding-left:2%;
+	padding-right:2%;
+	padding-bottom:1%;
+	background-color: white;
+	box-shadow: 10px 10px 5px #888888;
+	
 }
 .div-block
 {
@@ -16,8 +19,8 @@ body {
 	border-color:#ef433f;
 	border-top-width:5px;
 	border-bottom-width:5px;
-	border-left-width:20px;
-	border-right-width:10px; 
+	border-left-width:30px;
+	border-right-width:20px; 
 }
 .back-heading
 {
@@ -28,33 +31,152 @@ body {
 	padding-bottom: 1%;
 }
 
-.table-borderless {
-    border: 0;
-}
+
 ul
 {
 	list-style-type: none;
 }
 .item
 {
-	font-size:1em;
+	font-size:1.10em;
 	font-weight:bold;
 	padding-left:10%;
+}
+.itemsecond li
+{
+	font-size:1em;
 }
 .mute-text
 {
 	text-align: justify;
+	font-size:1em;
+}
+.p-line
+{
+	font-weight:bold;line-height:20%
+}
+.logo
+{
+	color:black;
+	padding-top:12%; 
+}
+.second-logo
+{
+	color:#ef433f;line-height:0; 
+}
+h5
+{
+	font-size:1.25em;
+}
+.year
+{
+	padding-top:1%;
 }
 @media(max-width: 755px)
 {
 	.item
 {
-	font-size:1em;
+	font-size:1.5em;
 	font-weight:bold;
 	padding-left:14px;
 }
+.item li
+{
+	font-size:1em;
+}
+.year
+{
+	font-size:1em;
+	padding-top: 0%;
+}
+.itemsecond li
+{
+	font-size: 1.2em;
+	margin-top:2.5%;
+}
+.mute-text
+{
+	font-size:1.25em;
+}
+.logo{
+	color:black;
+	padding-top:20%;
+	font-size:1em;
+}
+.second-logo
+{
+	color:#ef433f;line-height:0;
+	font-size:1em; 
+}
 .cont-space
 {
-	padding:0%;
+	padding:2%;
+	margin:0%;
+	box-shadow: 0px 0px 0px;
+	border-color: white;
+}
+.p-line
+{
+	font-weight:bold;
+	line-height: 100%
+}
+.year
+{
+	font-size:1em
+}
+body{
+	background-color: white;
+}
+}
+@media (min-width: 767px) and (max-width:991px)
+{
+		.item
+{
+	font-size:1.5em;
+	font-weight:bold;
+	padding-left:14px;
+}
+.item li
+{
+	font-size:1em;
+}
+.year
+{
+	font-size:1em;
+}
+.itemsecond li
+{
+	font-size: 1.2em;
+	margin-top:2.5%;
+}
+.mute-text
+{
+	font-size:1.25em;
+}
+.logo{
+	color:black;
+	padding-top:20%;
+	font-size:2em;
+}
+.second-logo
+{
+	color:#ef433f;line-height:0;
+	font-size:1.5em; 
+}
+.cont-space
+{
+	padding:2%;
+	margin:0%;
+	
+}
+.p-line
+{
+	font-weight:bold;
+	line-height: 100%
+}
+.year
+{
+	font-size:1.25em;
+	padding-top: 0%;
 }
 }
