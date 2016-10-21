@@ -42,6 +42,10 @@ ul
 	font-weight:bold;
 	padding-left:10%;
 }
+.img-footer
+{
+	width:30%;
+}
 .itemsecond li
 {
 	font-size:1em;
@@ -71,6 +75,16 @@ h5
 .year
 {
 	padding-top:1%;
+}
+.footer-list li{
+	display:inline-block;
+	margin-right:0px;
+}
+#footer-text
+{
+	font-size:15px;
+	font-weight: bold;
+	margin-bottom:10%;
 }
 @media(max-width: 755px)
 {
@@ -126,6 +140,15 @@ h5
 }
 body{
 	background-color: white;
+}
+.img-footer
+{
+	width:40%;
+}
+#footer-text
+{
+	font-size:15px;
+	font-weight: bold;
 }
 }
 @media (min-width: 767px) and (max-width:991px)
