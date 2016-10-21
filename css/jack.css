@@ -44,7 +44,15 @@ ul
 }
 .img-footer
 {
-	width:30%;
+	width:50%;
+	align:left;
+	padding-left:6%;
+}
+.img-text
+{
+	font-size:1.5em;
+	font-weight:bold;
+
 }
 .itemsecond li
 {
@@ -143,7 +151,7 @@ body{
 }
 .img-footer
 {
-	width:40%;
+	width:30%;
 }
 #footer-text
 {
